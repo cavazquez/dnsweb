@@ -2,7 +2,7 @@
 error_reporting(E_ERROR | E_PARSE);
 
 function read(){
-    $myfile = fopen("fqdn.txt", "a+") or die("No fue posible crear el archivo");
+    $myfile = fopen("/hostfile/fqdn.txt", "a+") or die("No fue posible crear el archivo");
     $num = 0;
     while (($line = fgets($myfile)) !== false) {
         $line = trim($line);
