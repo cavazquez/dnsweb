@@ -2,7 +2,7 @@
 
 Dnsweb is a software for map FQDN with ip
 
-## Instalation
+## Installation
 
 ### Vagrant
 
