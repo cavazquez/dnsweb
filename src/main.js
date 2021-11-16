@@ -26,5 +26,5 @@ function filter() {
 }
 
 function confirmar(fqdn) {
-  return confirm("¿Esta seguro que desea eliminar" + fqdn)
+  return confirm("¿Esta seguro que desea eliminar " + fqdn)
 }
