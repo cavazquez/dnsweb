@@ -12,8 +12,10 @@
 <div class="container">
     <div class="row">
         <div class="w-50 p-4">
-        <input type="text" id="myInput" onkeyup="filter()" placeholder="Search for names..">
-
+        <form action="/agregar.php" method="post">
+            <input name="direccion" type="text" id="myInput" onkeyup="filter()" placeholder="Search for names..">
+                <button type="submit" class="btn btn-primary">Agregar</button>
+        </form>
         <table class="table" id="myTable">
          <thead>
           <tr>
@@ -26,17 +28,6 @@
           <?php read(); ?>
          </tbody>
         </table>
-        </div>
-        <div class="w-50 p-4">
-        <form action="/agregar.php" method="post">
-            <div class="col-auto">
-                <!-- <label for="fname" class="form-label">Direccion:</label> -->
-                <input name="direccion" class="form-control form-control-lg" type="text" placeholder="example.com" aria-label=".form-control-lg example">
-            </div>
-            <div class="col-auto">
-                <button type="submit" class="btn btn-primary">Agregar</button>
-            </div>
-        </form>
         </div>
     </div>
 </div>
