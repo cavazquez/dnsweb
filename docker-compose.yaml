@@ -1,0 +1,11 @@
+
+services:
+
+    dnsweb:
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        container_name: dnsweb
+        restart : "unless-stopped"
+        mem_limit: "512m"
+        cpus: "1"
