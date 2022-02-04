@@ -2,7 +2,7 @@
 
 ![](https://github.com/cavazquez/dnsweb/blob/master/dnsweb.gif)
 
-Dnsweb is a software for map FQDN with ip
+Dnsweb is a software to map FQDN with ip
 
 ## Installation
 
