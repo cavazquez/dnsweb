@@ -1,6 +1,6 @@
 # dnsweb
 
-![](https://github.com/cavazquez/dnsweb.gif)
+![](https://github.com/cavazquez/dnsweb/dnsweb.gif)
 
 Dnsweb is a software for map FQDN with ip
 
